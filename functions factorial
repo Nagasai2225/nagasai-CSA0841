@@ -1,0 +1,39 @@
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+print("Factorial:", factorial(5))
+
+
+Output:
+
+Factorial: 120
+
+
+Largest Number in a List
+
+def largest_number(numbers):
+    return max(numbers)
+
+numbers = [12, 45, 7, 23, 56, 89, 34]
+print("Largest number:", largest_number(numbers))
+
+
+Output:
+
+Largest number: 89
+
+
+Area of Shape
+import math
+def area_of_circle(radius):
+    return math.pi * radius ** 2
+
+print("Area of circle:", area_of_circle(5))
+
+
+Output:
+
+Area of circle: 78.53981633974483
+
