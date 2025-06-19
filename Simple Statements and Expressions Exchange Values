@@ -21,3 +21,24 @@ print("a =", a, "b =", b, "c =", c)
 Output:
 
 a = 3 b = 1 c = 2
+
+
+
+
+
+Distance Between Two Points
+
+import math
+x1 = 1
+y1 = 2
+x2 = 4
+y2 = 6
+distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+print("Distance:", distance)
+
+
+Output:
+
+Distance: 5.0
+
+
