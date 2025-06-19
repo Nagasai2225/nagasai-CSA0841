@@ -1,0 +1,23 @@
+a = 5
+b = 10
+a, b = b, a
+print("a =", a, "b =", b)
+
+
+Output:
+
+a = 10 b = 5
+
+
+Circulate Values
+
+a = 1
+b = 2
+c = 3
+a, b, c = c, a, b
+print("a =", a, "b =", b, "c =", c)
+
+
+Output:
+
+a = 3 b = 1 c = 2
